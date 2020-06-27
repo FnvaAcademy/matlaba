@@ -1,0 +1,137 @@
+@media screen and (max-width:415px){
+    body{
+       background-color:#80CBC4;
+    }
+       .navWrapper{
+        background-color:white;
+        height:60px;
+        position:absolute;
+        top:0;
+        left:0;
+        right:0;
+        border:solid 3px white;
+    }
+    
+    ul li a{
+        text-decoration:none;
+        color:black;
+    }
+
+    ul li a{
+        text-decoration:none;
+    }
+    .menuContent{
+        background-color:white;
+        height:260px;
+        position:absolute;
+        left:0;
+        right:0;
+        list-style:none;
+        line-height:56px;
+        text-align:center;
+        font-weight:bolder;
+        font-family:arial;
+        font-size:30px;
+        top:30;
+        display:none;
+    }
+    .menu{
+        background-image:url(1.png);
+        background-size:55px;
+        height:50px;
+        width:10px;
+        background-repeat:no-repeat;
+        background-position-x:0px;
+        position:absolute;
+        right:15;
+        top:-15;
+    }
+    .navCaption{
+        font-weight:bolder;
+        font-family:arial;
+        font-size:50px;
+        margin-top:-0px;
+        margin-left:3px;
+        width:50px;
+        line-height:50px;
+    }
+    .faith{
+        font-weight:bolder;
+        font-family:sans-serif;
+        color:#FFC107;
+        margin-top:-50px;
+    }
+    .backgroundImage{
+        height:300px;
+        position:absolute;
+        left:0;
+        top:74;
+        border:solid px black;
+        right:0;
+        background-color:white;
+        background-size:360px;
+        background-position-y:-130px;
+        background-repeat:no-repeat;
+    }
+    .webdev,.graphic{
+        font-weight:bolder;
+        font-family:arial;
+        font-size:24px;
+        color:black;
+        border:solid 3px black;;
+        text-align:center;
+        background-color:#FFC107;
+    }
+    .webdev{
+        margin-top:-20px;
+    }
+    .graphic{
+        margin-top:-10px;
+    }
+    .name{
+        font-size:50px;
+        opacity:100%;
+        text-align:center;
+        font-weight:bolder;
+        font-family:arial;
+    }
+    .programminglang{
+        height:370px;
+        position:absolute;
+        top:380;
+        left:0;
+        right:0;
+        font-family:arial;
+        background-color:white;
+    }
+    .cssrating,.jsrating,.phprating,.javarating{
+        height:20px;
+        font-family:arial;
+        font-weight:bold;
+        background-color:#FF9800;
+    }
+    .jsrating{
+        width:294px;
+        margin-left:0px;
+    }
+    .phprating{
+        margin-left:0px;
+        width:130px;
+    }
+    .javarating{
+        margin-left:0px;
+        width:220px;
+    }
+}
+@media screen and (max-width:361px){
+    body{
+        background-color:#80CBC4
+    }
+    .navWrapper{
+        background-color:white;
+    }
+    ul li a{
+        text-decoration:none;
+        color:black;
+    }
+}
